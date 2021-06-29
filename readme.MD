@@ -11,7 +11,7 @@
 - Abra o browser e navegue: http://localhost:4100
 <br>
 - Para criar a Mutation: 
-```
+```go
   mutation {
   addVideo(videoInput:{
     description: "Video exemplo"
