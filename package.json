@@ -1,0 +1,23 @@
+{
+  "name": "api-typeGraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "ts-node-dev src/server.ts"
+  },
+
+  "devDependencies": {
+    "ts-node-dev": "^1.1.7",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
