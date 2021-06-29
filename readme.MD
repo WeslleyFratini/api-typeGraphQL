@@ -23,8 +23,7 @@
     category
   }
 }
-```
-```
+
 - Para consultar os videos cadastrados:
 
     {
