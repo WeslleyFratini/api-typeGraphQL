@@ -4,14 +4,21 @@
 
 ### Iniciar o projeto 
 
-- `git clone`
-- `yarn install`
--  `yarn start`
-
+```sh 
+  git clone
+  ```
+```sh
+  yarn install
+  ```
+```sh
+  yarn start
+```
 - Abra o browser e navegue: http://localhost:4100
 <br>
-- Para criar a Mutation: 
-```go
+
+Para criar a Mutation: 
+
+```graphql
   mutation {
   addVideo(videoInput:{
     description: "Video exemplo"
@@ -23,9 +30,11 @@
     category
   }
 }
+```
 
-- Para consultar os videos cadastrados:
+Para consultar os videos cadastrados:
 
+```graphql
     {
       videos{
         description
