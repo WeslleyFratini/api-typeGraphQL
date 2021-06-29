@@ -23,10 +23,9 @@
     category
   }
 }
-```
 
 - Para consultar os videos cadastrados:
-```
+
     {
       videos{
         description
@@ -34,5 +33,5 @@
         category
       }
     }
-  
+```  
     
